@@ -1,0 +1,222 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EBF0F2;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.logo-icon {
+    float: left;
+    width: 70px;
+    padding: 0%;;
+}
+
+.bg-dark{
+    transition: 750ms ease;
+    background: transparent !important;
+}
+.navbar {
+    float: left;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+
+.bg-dark.scrolled{
+    background-color: #EBF0F2 !important;
+}
+
+.navbar-brand {
+    margin-left: 5%;
+}
+
+.navbar-nav {
+    margin-right: 5%;
+}
+
+.nav-item {
+    color: rgb(36, 36, 36);
+}
+
+.nav-item:hover {
+    color: rgb(242, 34, 51)
+}
+
+h1{
+    font-size: 50px;
+    font-weight: bold;
+    color: rgb(36, 36, 36);
+    letter-spacing: .1rem;
+}
+span::before {
+    content: 'Design';
+    animation: hero infinite 4s;
+    color: rgb(242, 34, 51)
+}
+
+@keyframes hero {
+    0% {
+        content: 'Design'
+    }
+    33% {
+        content: 'Develop'
+    }
+    66% {
+        content: 'Create'
+    }
+}
+
+.jumbotron {
+    
+    color: #EBF0F2;
+    background-image: url(../images/IMG_6547-edit.jpg);
+    background-color:#EBF0F2;
+    background-size: cover;
+    height: 100vh;
+    box-shadow: inset 0 0 0 1000px rgba(225, 225, 225, 0.8);
+    padding: 0;
+    margin: 0;
+}
+
+#about {
+    background: rgb(242, 34, 51);
+    padding: 80px;
+    /* padding-left: 5%; */
+    color: #EBF0F2;
+    font-size: 1.1rem;
+    letter-spacing: .04rem;
+}
+
+#portfolio-title {
+    background: rgb(36, 36, 36);
+    padding: 80px;
+    
+}
+
+#footerInfo{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #EBF0F2;
+    font-weight: bold;
+    letter-spacing: .1rem;
+}
+h2.contact {
+    padding: 80px;
+    background-color: rgb(242, 34, 51);
+    width: 100%;
+    text-align: center;
+    }
+footer{
+    padding: 5px;
+    color: rgb(36, 36, 36);
+}
+
+h1.project-title{
+    color: #EBF0F2;
+    padding: 20px;
+}
+
+.project-category{
+    font-weight: bold;
+}
+.project-name{
+    font-weight: bold;
+}
+.social{
+    float: right;
+    position: absolute;
+    right: 5%;
+}
+
+#title{
+    background-color: rgb(36, 36, 36);
+    color: #EBF0F2;
+}
+
+.fab{
+    color: rgb(36, 36, 36);
+    font-size: 3rem;
+    margin: 20px;
+}
+.fab:hover{
+    color: rgb(242, 34, 51);
+}
+
+#folio{
+    color: #EBF0F2 !important;
+}
+
+#folio:hover{
+    color: rgb(242, 34, 51) !important;
+}
+
+#contact-column{
+    margin-left: 5%;
+}
+.hero-text {
+    text-align: left;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    color: white;
+    margin-left: 20px;
+}
+
+#portfolio .container-fluid {
+    max-width: 100%;
+  }
+  
+  #portfolio .container-fluid .portfolio-box {
+    position: relative;
+    display: block;
+  }
+  
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    color: #fff;
+    background: rgba(36, 36, 36, 0.9);
+    -webkit-transition: opacity 0.25s ease;
+    transition: opacity 0.25s ease;
+    text-align: center;
+  }
+  
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-category {
+    font-family: "Merriweather Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 0.85rem;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  #portfolio .container-fluid .portfolio-box .portfolio-box-caption .project-name {
+    font-size: 1.2rem;
+  }
+  
+  #portfolio .container-fluid .portfolio-box:hover .portfolio-box-caption {
+    opacity: 1;
+  }
+

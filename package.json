@@ -1,0 +1,19 @@
+{
+  "name": "thomasdesignco",
+  "version": "1.0.0",
+  "description": "start of my real portfolio site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ctashton/thomasDesignCo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ctashton/thomasDesignCo/issues"
+  },
+  "homepage": "https://github.com/ctashton/thomasDesignCo#readme"
+}
