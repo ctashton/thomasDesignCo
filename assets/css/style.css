@@ -172,13 +172,13 @@ h1.project-title{
 #portfolio .container-fluid {
     max-width: 100%;
   }
-  
+
   #portfolio .container-fluid .portfolio-box {
     position: relative;
     display: block;
   }
-  
-  #portfolio .container-fluid .portfolio-box .portfolio-box-caption {
+
+  #portfolio .portfolio-box-caption {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
